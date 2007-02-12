@@ -1,5 +1,5 @@
 Summary:	Simple DirectMedia Layer - RTF displaying
-Summary(pl):	Biblioteka do wy∂wietlania dokumentÛw RTF pod SDL
+Summary(pl.UTF-8):   Biblioteka do wy≈õwietlania dokument√≥w RTF pod SDL
 Name:		SDL_rtf
 Version:	0.1.0
 Release:	1
@@ -21,15 +21,15 @@ This is a sample library which allows you to display Rich Text Format
 program "showrtf" which displays an RTF file using an SDL_ttf font
 engine.
 
-%description -l pl
-Przyk≥adowa biblioteka do wy∂wietlania dokumentÛw RTF (Rich Text
-Format) w aplikacjach SDL. Pakiet zawiera przyk≥adowy program
-"showrtf", wy∂wietlaj±cy plik RTF przy uøyciu silnika fontÛw SDL_ttf.
+%description -l pl.UTF-8
+Przyk≈Çadowa biblioteka do wy≈õwietlania dokument√≥w RTF (Rich Text
+Format) w aplikacjach SDL. Pakiet zawiera przyk≈Çadowy program
+"showrtf", wy≈õwietlajƒÖcy plik RTF przy u≈ºyciu silnika font√≥w SDL_ttf.
 
 %package devel
 Summary:	Header files and more to develop SDL_rtf applications
-Summary(pl):	Pliki nag≥Ûwkowe do rozwijania aplikacji uøywaj±cych SDL_rtf
-Summary(pt_BR):	CabeÁalhos para desenvolver programas utilizando a %{name}
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe do rozwijania aplikacji u≈ºywajƒÖcych SDL_rtf
+Summary(pt_BR.UTF-8):   Cabe√ßalhos para desenvolver programas utilizando a %{name}
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	SDL-devel >= 1.2.5-2
@@ -37,29 +37,29 @@ Requires:	SDL-devel >= 1.2.5-2
 %description devel
 Header files and more to develop SDL_rtf applications.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe do rozwijania aplikacji uøywaj±cych SDL_rtf.
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe do rozwijania aplikacji u≈ºywajƒÖcych SDL_rtf.
 
-%description devel -l pt_BR
-Este pacote contÈm os cabeÁalhos que programadores v„o precisar para
-desenvolver aplicaÁıes utilizando a %{name}.
+%description devel -l pt_BR.UTF-8
+Este pacote cont√©m os cabe√ßalhos que programadores v√£o precisar para
+desenvolver aplica√ß√µes utilizando a %{name}.
 
 %package static
 Summary:	Static SDL_rtf libraries
-Summary(pl):	Biblioteki statyczne SDL_rtf
-Summary(pt_BR):	Biblioteca est·tica para desenvolvimento utilizando a %{name}
+Summary(pl.UTF-8):   Biblioteki statyczne SDL_rtf
+Summary(pt_BR.UTF-8):   Biblioteca est√°tica para desenvolvimento utilizando a %{name}
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static SDL_rtf libraries.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Biblioteki statyczne SDL_rtf.
 
-%description static -l pt_BR
-Este pacote contÈm a biblioteca est·tica que programadores v„o
-precisar para desenvolver aplicaÁıes linkados estaticamente com a
+%description static -l pt_BR.UTF-8
+Este pacote cont√©m a biblioteca est√°tica que programadores v√£o
+precisar para desenvolver aplica√ß√µes linkados estaticamente com a
 %{name}.
 
 %prep
