@@ -1,5 +1,5 @@
 Summary:	Simple DirectMedia Layer - RTF displaying
-Summary(pl.UTF-8):   Biblioteka do wyświetlania dokumentów RTF pod SDL
+Summary(pl.UTF-8):	Biblioteka do wyświetlania dokumentów RTF pod SDL
 Name:		SDL_rtf
 Version:	0.1.0
 Release:	1
@@ -28,8 +28,8 @@ Format) w aplikacjach SDL. Pakiet zawiera przykładowy program
 
 %package devel
 Summary:	Header files and more to develop SDL_rtf applications
-Summary(pl.UTF-8):   Pliki nagłówkowe do rozwijania aplikacji używających SDL_rtf
-Summary(pt_BR.UTF-8):   Cabeçalhos para desenvolver programas utilizando a %{name}
+Summary(pl.UTF-8):	Pliki nagłówkowe do rozwijania aplikacji używających SDL_rtf
+Summary(pt_BR.UTF-8):	Cabeçalhos para desenvolver programas utilizando a %{name}
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	SDL-devel >= 1.2.5-2
@@ -46,8 +46,8 @@ desenvolver aplicações utilizando a %{name}.
 
 %package static
 Summary:	Static SDL_rtf libraries
-Summary(pl.UTF-8):   Biblioteki statyczne SDL_rtf
-Summary(pt_BR.UTF-8):   Biblioteca estática para desenvolvimento utilizando a %{name}
+Summary(pl.UTF-8):	Biblioteki statyczne SDL_rtf
+Summary(pt_BR.UTF-8):	Biblioteca estática para desenvolvimento utilizando a %{name}
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
